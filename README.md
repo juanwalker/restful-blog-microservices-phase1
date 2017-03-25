@@ -1,8 +1,8 @@
 # restful-blog-microservices-phase1
 
-This project is part of the transformation to microservices of project https://github.com/benjsicam/restful-blog, it was splitted in 4 stages for educational purposes.
+This project is part of the transformation to microservices of project https://github.com/benjsicam/restful-blog, it was splitted in 4 stages for educational purposes
 
-For the stage 1 you will need to create three new databases with the following tables:
+For the stage 1 it highly recommended that you setup the monolith in order to easily get familiar with the project, for this stage you will need to create three new databases with the following tables:
 
 **restful_blog_auth**
 
@@ -45,3 +45,5 @@ CREATE TABLE IF NOT EXISTS `log` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=339 DEFAULT CHARSET=utf8;
 ```
+Also you will need to setup a git repository for the spring cloud configurtion service, if you are using windows you can use gitstack free version. The repository was named  restful_blog_configuration_properties,set public permission and  commit the files inside repository directory.
+
