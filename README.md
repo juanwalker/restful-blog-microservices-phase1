@@ -4,7 +4,7 @@ This project is part of the transformation to microservices of project https://g
 
 For the stage 1 you will need to create three new databases with the following tables:
 
-##restful_blog_auth
+**restful_blog_auth**
 
 ```sql
 CREATE TABLE IF NOT EXISTS `credentials` (
@@ -19,7 +19,7 @@ INSERT INTO `credentials` (`id`, `username`, `password`) VALUES
 	(2, 'user', '$2a$10$NtDZRpRKw190x5QR/oNCMuW5Ff6yx4klaw.Qd5PP2/i8DXjZzqHaG');
 ```
 
-##restful_blog_author
+**restful_blog_author**
 
 ```sql
 CREATE TABLE IF NOT EXISTS `author` (
@@ -36,7 +36,7 @@ INSERT INTO `author` (`id`, `username`, `firstname`, `lastname`, `email`) VALUES
 	(2, 'user', 'Juan', 'dela Cruz', 'info@benjsicam.me');
 ```
 
-##restful_blog_log
+**restful_blog_log**
 
 ```sql
 CREATE TABLE IF NOT EXISTS `log` (
