@@ -16,7 +16,7 @@ public class HomeController {
 	}
 
 	@RequestMapping(value = "/health.json", method = RequestMethod.GET)
-	public @ResponseBody ResponseEntity<String 	ring> healthJson() {
+	public @ResponseBody ResponseEntity<String> healthJson() {
 		return new ResponseEntity<String>("{\"status\":\"UP\"}", HttpStatus.OK);
 	}
 }
